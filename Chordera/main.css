@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Metropolis 1920';
+    src: url(fonts/METROPOLIS1920/Metropolis1920.otf);
+}
+@font-face {
+    font-family: 'alike';
+    src: url(fonts/alike/Alike-Regular.ttf);
+}
+
+body{
+    background-color: #141204;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'alike';
+    color:white;
+}
+#logo, #start {
+    font-family: 'Metropolis 1920';
+    
+}
+#logo{
+    color: #E9BA6F;
+    font-size:10em;
+}
+#start {
+   color:white; 
+   font-size: 5em;
+}
+#start:hover{
+    color:#3F7CAC;
+}
+
+.gameText {
+    color:white;
+}
+
+#keyboard{
+    display: flex;
+    flex-flow:row nowrap;
+    height: 300px;
+    width:70%;
+    min-width: 700px;
+
+    justify-self: flex-end;
+
+    overflow: hidden;
+    /*border-radius: 60px;*/
+
+}
+.whiteKey{
+    background-color: white;
+    flex: 2;
+}
+.blackKey{
+    background-color: #141204;
+    border:4px solid #141204;
+    flex: 3;
+    width:83%;
+    align-self: flex-start;
+}
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
+.flexHalf{
+    flex:1;
+    background-color: white;
+}
+.checkBtn{
+    background-color:#3F7CAC;
+    width:70px;
+    height:40px;
+    font-family: 'alike';
+    color:white;
+}
+
+.optionButtons{
+    flex:1;
+    height: auto;
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 2%;
+    background-color: #3F7CAC;
+    color: white;
+    font-family: 'alike';
+    font-size: 1.5em;
+
+    box-shadow: 5px 5px #284c67, 0px 5px #284c67, 5px 0px #284c67;
+
+    position: relative;
+}
+.optionButtons:hover{
+    top:5px;
+    left:5px;
+    box-shadow: none;
+}
+.selectedModeButton{
+    background-color: #E9BA6F;
+    top:5px;
+    left:5px;
+    box-shadow: none;
+}
+
+.optionBox{
+    width:30%;
+    display: flex;
+    /*justify-content: space-between;*/
+    gap: 5%;
+    flex-flow: row wrap;
+}
+

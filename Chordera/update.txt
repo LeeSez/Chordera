@@ -1,0 +1,12 @@
+1. you can now mark the notes at any order and computer will compute the result correctly
+2. added 7th chords
+3. chords are now playing when they are presented
+4. a generan unrefined logo was added 
+
+new update
+
+ideas:
+* new shape to the end of the keys 
+* add score
+* set goals of score
+* make it possible to select the chords ionvolved in the excercise 
